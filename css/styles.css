@@ -1,0 +1,31 @@
+body{
+    background-image: url("../images");
+}
+.jumbotron{
+    background-image: url("../image");
+    background-image: repeating-linear-gradient();
+}
+#glowing{
+    width:250px;
+}
+#gamer{
+    text-align: center;
+}
+#gamebody{
+    display: none;
+}
+#header{
+    text-align: center;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.midbody{
+    font-size: 17px;
+}
+#first{
+    font-weight: bold;
+    font-size:20px;
+    text-decoration: underline;
+}
