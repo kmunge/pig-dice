@@ -93,6 +93,23 @@ $(document).ready(function(){
         $("#glowing").fadeIn();
     });
 
-    
+    $("#Hold1").click(function(){
+        $(document.getElementById("Hold1").disabled = true);
+        $(document.getElementById("roll1").disabled = true);
+        $(document.getElementById("Hold2").disabled = false);
+        $(document.getElementById("roll2").disabled = false);
+        totalScore1 += turnScore1;
+        turnScore1 -= turnScore1;
+        $("#totalScore1").text(totalScore1);
+
+        if (totalScore1 >= 100){
+            $("#congrats").fadeIn();
+            $("#glowing").fadeOut();
+            $(document.getElementById("Hold2").disabled = true);
+            $(document.getElementById("roll2").disabled = true);
+            $(document.getElementById("Hold1").disabled = true);
+            $(document.getElementById("roll1").disabled = true);
+        }
+    })
 });
 
