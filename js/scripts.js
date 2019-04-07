@@ -52,6 +52,16 @@ $(document).ready(function(){
         $("#gamebody").slideDown();
         var player1Name = $("input#player1").val();
         var player2Name = $("input#player2").val();
-    })
+        $("#first").text("Hello "+ player1Name);
+        $("#second").text("Hello "+player2Name);
+    });
+
+    $("#roll1").click(function(){
+        dieScore1 = rollDice();
+        turnScore1 += dieScore1;
+        $("#dieScore1").text(dieScore1);
+        $("#turnSCore1").text(turnScore1);
+        score1(dieScore1);
+    });
 });
 
