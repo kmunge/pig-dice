@@ -30,5 +30,18 @@ function score1 (ans){
     else{
         $("#comment").text("You rolled "+ ans +". Play again or hold!");
     }
-}
+};
+
+function score2(ans2){
+    if(ans2 === 1){
+        $("#comment2").text("oh no! You rolled 1,lost your scores back to zero!");
+        $(document.getElementById("roll2").disabled = true);
+        $(document.getElementById("roll1").disabled = false);
+        $(document.getElementById("Hold1").disabled = false);
+        $("#turnScore2").empty();
+    }
+    else{
+        $("#comment2").text("You rolled "+ ans2 + ". Play again or hold!");
+    }
+};
 
