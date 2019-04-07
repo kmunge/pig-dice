@@ -45,3 +45,13 @@ function score2(ans2){
     }
 };
 
+//user interface 
+$(document).ready(function(){
+    $("form#players").submit(function(event){
+        event.preventDefault();
+        $("#gamebody").slideDown();
+        var player1Name = $("input#player1").val();
+        var player2Name = $("input#player2").val();
+    })
+});
+
