@@ -63,5 +63,13 @@ $(document).ready(function(){
         $("#turnSCore1").text(turnScore1);
         score1(dieScore1);
     });
+
+    $("#roll2").click(function(){
+        dieScore2 = rollDice();
+        turnScore2 += dieScore2;
+        $("#dieScore2").text(dieScore2);
+        $("#turnScore2").text(turnScore2);
+        score2(dieScore2)
+    });
 });
 
