@@ -18,3 +18,17 @@ function rollDice(){
     return(Math.floor(Math.random()*6)+1);
 };
 
+function score1 (ans){
+    if(ans ===1 ){
+        $("#comment").text("Oh no! You rolled 1, you just lost your turnscore,result zero!!");
+        $(document.getElementById("roll1").disabled = true);
+        $(document.getElementById("roll2").disabled = false);
+        $(document.getElementById("Hold2").disabled = false);
+        turnScore1 = turnScore1*0;
+        $("#turnScore1").empty();
+    }
+    else{
+        $("#comment").text("You rolled "+ ans +". Play again or hold!");
+    }
+}
+
