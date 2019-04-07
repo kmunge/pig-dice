@@ -29,3 +29,26 @@ h1{
     font-size:20px;
     text-decoration: underline;
 }
+#second{
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
+}
+#reset{
+    text-align:center;
+}
+#font{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+}
+#congrats{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    display: none;
+}
+#reset{
+    font-size: 20px;
+    font-weight: bold;
+}
