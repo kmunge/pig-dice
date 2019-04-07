@@ -71,5 +71,28 @@ $(document).ready(function(){
         $("#turnScore2").text(turnScore2);
         score2(dieScore2)
     });
+
+    $("#reset").click(function(){
+        $(document.getElementById("Hold1").disabled = false);
+        $(documnent.getElementById("roll1").disabled = false);
+        $(document.getElementById("Hold2").disabled = false);
+        $(document).getElementById("roll2").disabled = false);
+        turnScore1 = turnScore1*0;
+        turnScore2 = turnScore2*0;
+        totalScore1 = totalScore1*0;
+        totalScore2 = totalScore2*0;
+        $("#dieScore1").empty();
+        $("#dieScore2").empty();
+        $("#comment").empty();
+        $("#comment2").empty();
+        $("#turnScore1").empty();
+        $("#turnScore2").empty();
+        $("#totalScore1").empty();
+        $("#totalScore2").empty();
+        $("#congrats").empty();
+        $("#glowing").fadeIn();
+    });
+
+    
 });
 
