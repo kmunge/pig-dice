@@ -134,3 +134,4 @@ function Player(name, score1, score2, score3) {
       }
     });
   });
+//copyrighted by @ kmunge
