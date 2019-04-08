@@ -1,9 +1,11 @@
 body{
-    background-image: url("../images");
+    background-image: url("../images/background1.jpg");
+    
 }
 .jumbotron{
-    background-image: url("../image");
+    background-image: url("../images/784o.gif");
     background-image: repeating-linear-gradient();
+    background-image: radial-gradient();
 }
 #glowing{
     width:250px;
@@ -23,16 +25,17 @@ h1{
 }
 .midbody{
     font-size: 17px;
+    background: silver;
 }
 #first{
     font-weight: bold;
     font-size:20px;
-    text-decoration: underline;
+    color: coral;
 }
 #second{
     font-weight: bold;
     font-size: 20px;
-    text-decoration: underline;
+    color: coral;
 }
 #reset{
     text-align:center;
@@ -41,6 +44,8 @@ h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 70px;
     font-weight: 600;
+    font-style: italic;
+    color: blueviolet;
 }
 #congrats{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -51,4 +56,8 @@ h1{
 #reset{
     font-size: 20px;
     font-weight: bold;
+}
+.row{
+    background: #d9d9d9;
+    padding: inherit;
 }
