@@ -19,8 +19,9 @@ The rules:
 * Game like you never did that before!!!
 
 ## Program Specifications (examples use only)
+##BDD
 
-|    Input/ Dice Roll  |   Cumulative Score   |     Total Score         |
+|     Dice Rolling     |   outcome    Score   |     Total Score         |
 |  :----------------:  | :------------------: |  :-------------------:  |
 |   5, 4, 2,hold       |     11               |        11               |
 |   6, hold            |     6                |        16               |
