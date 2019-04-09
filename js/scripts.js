@@ -1,4 +1,4 @@
-//BUSINESS LOGIC
+//Business logic
 function Player(name, score1, score2, score3) {
     this.playerName = name;
     this.dieScore = score1;
@@ -48,7 +48,7 @@ function Player(name, score1, score2, score3) {
       }
       };
   
-  //USER INTERFACE (FRONT-END);
+  //front works
   $(document).ready(function(){
     $("form#players").submit(function(event){
       event.preventDefault();
